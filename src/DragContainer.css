@@ -1,0 +1,33 @@
+.container {
+
+}
+
+.drawer {
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 20px;
+
+  height: 300px;
+}
+
+.label {
+  position: absolute;
+  bottom: -50px;
+}
+
+.handle {
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  font-size: small;
+}
+
+.content {
+  max-width: 256px;
+}
