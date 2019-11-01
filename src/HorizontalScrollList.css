@@ -1,0 +1,25 @@
+.scroll-list-container {
+  overflow-x: hidden;
+}
+
+.scroll-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.scroll-list .scroll-item + .scroll-item {
+  margin-left: 5px;
+}
+
+.scroll-item {
+  display: inline-block;
+  white-space: normal;
+  width: 200px;
+  height: 250px;
+}
+
+.scroll-item img {
+  max-width: 100%;  
+}
